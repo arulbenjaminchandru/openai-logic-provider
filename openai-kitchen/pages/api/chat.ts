@@ -20,7 +20,7 @@ export default async function handler(
             headers,
             body : JSON.stringify({
                 "model" : "text-davinci-003",
-                "prompt" : `Act like a a person who knows everything about IBM Mainframe COBOL programming. Provide me step by step instructions to help me for writing a logic to ${req.body.cobol}. If that is not achievable, then tell me that this cannot be achievable and dont provide any further instructions`,
+                "prompt" : `write a children story on Topic:  ${req.body.cobol}. The story should not exceed 550 tokens and provide story credits to Arul Benjamin's Chat GPT story creator after a line space in bottom of output.`,
                 "temperature" : 0.5,
                 "max_tokens" : 550
             })

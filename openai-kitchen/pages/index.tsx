@@ -37,7 +37,7 @@ export default function Home() {
         </div>
         <div className="mt-6 text-center">
           <h1 className="font-serif text-3xl">
-            Give me Step-by-step Instruction to code logic in <br/>IBM Mainframe COBOL for
+            Enter a topic here to generate kids stories
           </h1>
         </div>
         <div className="mt-6">
